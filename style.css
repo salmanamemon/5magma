@@ -14,7 +14,7 @@ body {
     background-color: #1137ca;
 }
 @font-face {
-    font-family: a;
+    font-family: "Playfair", serif;
     src: url(./jost-variable.ttf);
 }
 @font-face {
@@ -46,8 +46,9 @@ body {
     width: 100vw;
 }
 #page1>nav>img{
-    margin-top: -1.7vw;
-    width: 9%;
+    margin-top: 0;
+    width: 40px;
+    mix-blend-mode: lighten;
 }
 #right-nav>button{
     padding: 10px 20px;
@@ -55,7 +56,7 @@ body {
     background-color: #0b48ed;
     border: 1px solid #fff;
     color: #fff;
-    font-family: a;
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 .bottom-page1{
@@ -66,7 +67,7 @@ body {
     left: 10%;
 }
 .bottom-page1>h1{
-    font-family: a;
+    font-family: "Playfair", serif;
     font-size: 5vw;
     font-weight: 100;
     line-height: 1;
@@ -82,7 +83,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 .bottom-page1-inner>button{
     padding: 10px 20px;
@@ -91,17 +93,17 @@ body {
     background-color: #fff;
     color: #0b48ed;
     font-size: 16px;
-    font-family: b;
+    font-family: "Montserrat", sans-serif;
 }
 .bottom-page1-inner>h4{
     font-size: 1.3vw;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
 }
 #page2{
     display: flex;
     align-items: start;
-    font-family: a;
+    font-family: "Playfair", serif;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
@@ -114,6 +116,7 @@ body {
 #page2>h2{
     margin-bottom: 3vw;
     font-weight: 100;
+    font-family: "Montserrat", sans-serif;
 }
 #page2>h1{
     font-weight: 100;
@@ -143,13 +146,14 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #1137ca;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 #page4>h3{
     margin-left: 15vw;
     margin-bottom: 2vw;
     font-weight: 100;
     color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 #page4>h1{
     margin-left: 15vw;
@@ -177,13 +181,14 @@ body {
     width: 100vw;
     background-color: #0a3cce;
     flex-direction: column;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 #page6>h3{
     margin-left: 15vw;
     font-weight: 100;
     color: #fff;
     margin-bottom: 2vw;
+    font-family: "Montserrat", sans-serif;
 }
 #page6>h1{
     margin-left: 15vw;
@@ -242,7 +247,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 .page8-bottom>h1{
     color: #fff;
@@ -268,7 +273,7 @@ body {
     height: 100%;
     width: 40%;
     position: relative;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 .left9>h1{
     position: absolute;
@@ -314,7 +319,7 @@ body {
     flex-direction: column;
     height: 33.3%;
     width: 100%;
-    font-family: a;
+    font-family: "Playfair", serif;
     color: #fff;
 }
 .right10-inner>h1{
@@ -324,6 +329,7 @@ body {
     margin-top: 2vw;
     font-size: 1.3vw;
     width: 80%;
+    font-family: "Montserrat", sans-serif;
 }
 
 #page11{
@@ -331,7 +337,7 @@ body {
     height: 110vh;
     width: 100vw;
     background-color: #fff;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 #page11>h1{
     position: absolute;
@@ -372,6 +378,7 @@ body {
 }
 .right11>h4{
     font-weight: 100;
+    font-family: "Montserrat", sans-serif;
 }
 .right11>h1{
     font-size: 2vw;
@@ -389,7 +396,7 @@ body {
     top: 20%;
     right: 10%;
     color: #fff;
-    font-family: a;
+    font-family: "Playfair", serif;
 }
 .page12-inner>h1{
     font-size: 5vw;
@@ -397,6 +404,7 @@ body {
 }
 .page12-inner>p{
     font-size: 1.3vw;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -406,7 +414,7 @@ body {
     width: 100vw;
     background-color: #000;
     color: #fff;
-    font-family: a;
+    font-family: "Playfair", serif;
     padding: 7vw 10vw;
 }
 #page13>h1{
@@ -436,7 +444,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0vw 5vw;
-    font-family: a;
+    font-family: "Playfair", serif;
     height: 33.3%;
     width: 100%;
     color: #fff;
@@ -470,4 +478,44 @@ body {
 
 .page14-inner:hover .center14{
     height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .bottom-page1>h1 {
+        font-size: 60px;
+    }
+    .bottom-page1 {
+        height: 250px;
+        width: calc(100% - 70px);
+        left: 30px;
+    }
+    .bottom-page1-inner>h4 {
+        font-size: 16px;
+    }
+    #page4>h1, #page6>h1{
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bottom-page1-inner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bottom-page1>h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .bottom-page1-inner{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bottom-page1>h1 br, .bottom-page1-inner>h4 br{
+        display: none;
+    }
+    #page4>h1, #page6>h1{
+        font-size: 20px;
+    }
 }
